@@ -1,0 +1,12 @@
+*.pyc
+*/RootCoreBin/*
+*/rcSetup.csh
+*/rcSetup.sh
+*/.RootCoreBin
+*.gch
+root/RingerCore/cmt/boost_*
+root/RingerCore/cmt/include/*
+root/RingerCore/cmt/lib/*
+root/RootCore/*
+root/FastNetTool/cmt/new_env_file.sh
+*.save

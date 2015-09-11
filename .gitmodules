@@ -1,0 +1,12 @@
+[submodule "root/RingerCore"]
+	path = root/RingerCore
+	url = git@github.com:wsfreund/RingerCore.git
+[submodule "root/TuningTools"]
+	path = root/TuningTools
+	url = git@github.com:wsfreund/TuningTools.git
+[submodule "root/RingerTrigEgammaAnalysis"]
+	path = root/RingerTrigEgammaAnalysis
+	url = git@github.com:wsfreund/RingerTrigEgammaAnalysis.git
+[submodule "matlab"]
+	path = matlab
+	url = git@github.com:wsfreund/MatlabRingerMiscellanea.git
