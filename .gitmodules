@@ -9,7 +9,7 @@
 	url = https://github.com/wsfreund/RingerTrigEgammaAnalysis.git
 [submodule "matlab"]
 	path = matlab
-	url = https://github.com/:wsfreund/MatlabRingerMiscellanea.git
+	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
 	url = https://github.com/wsfreund/RootCoreMacros.git
