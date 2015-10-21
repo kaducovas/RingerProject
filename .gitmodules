@@ -3,7 +3,7 @@
 	url = https://github.com/wsfreund/RingerCore.git
 [submodule "root/TuningTools"]
 	path = root/TuningTools
-	url = https://github.com/:wsfreund/TuningTools.git
+	url = https://github.com/wsfreund/TuningTools.git
 [submodule "root/RingerTrigEgammaAnalysis"]
 	path = root/RingerTrigEgammaAnalysis
 	url = https://github.com/wsfreund/RingerTrigEgammaAnalysis.git
