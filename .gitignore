@@ -10,3 +10,5 @@ root/RingerCore/cmt/lib/*
 root/RootCore/*
 root/FastNetTool/cmt/new_env_file.sh
 *.save
+*.bak
+.gitmodules
