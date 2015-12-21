@@ -1,9 +1,10 @@
 
-INSTALL_AREA=$(pwd)
+
 
 mkdir InstallArea
 cd InstallArea/
 
+INSTALL_AREA=$(pwd)
 wget http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p $INSTALL_AREA/miniconda
 PATH="$INSTALL_AREA/miniconda/bin:$PATH"
