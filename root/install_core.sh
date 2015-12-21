@@ -25,7 +25,8 @@ tar -vxf armadillo-6.400.2.tar
 rm armadillo-6.400.2.tar
 cd armadillo-6.400.2/
 cmake .
-make install DESTDIR=$(pwd)
+make install DESTDIR=$INSTALL_AREA/armadillo-6.400.2
+export LD_LIBRARY_PATH=$INSTALL_AREA/armadillo-6.400.2/usr/lib64:$LD_LIBRARY_PATH
 cd ..
 
 #exmachina core
@@ -33,10 +34,10 @@ cd ..
 cp -r /afs/cern.ch/work/j/jodafons/public/ExMachina .
 cd ExMachina/
 source install.sh \
-  /tmp/jodafons/RingerProject/root/InstallArea/armadillo-6.400.2/usr/lib64 \
-  /tmp/jodafons/RingerProject/root/InstallArea/armadillo-6.400.2/usr/include
+  $INSTALL_AREA/armadillo-6.400.2/usr/lib64 \
+  $INSTALL_AREA/armadillo-6.400.2/usr/include
 
-PYTHONPATH=$PYTHONPATH:/build
+PYTHONPATH=$PYTHONPATH:$INSTALL_AREA/ExMachina/build
 cd ../..
 
 
