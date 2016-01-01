@@ -6,8 +6,11 @@ export LDFLAGS=" -m64 -arch x86_64"
 rm -rf InstallArea/
 
 #download rootcore 
-svn co svn+ssh://jodafons@svn.cern.ch/reps/atlasoff/PhysicsAnalysis/D3PDTools/RootCore/tags/`svn ls svn+ssh://jodafons@svn.cern.ch/reps/atlasoff/PhysicsAnalysis/D3PDTools/RootCore/tags | tail -n 1` RootCore
+#svn co svn+ssh://jodafons@svn.cern.ch/reps/atlasoff/PhysicsAnalysis/D3PDTools/RootCore/tags/RootCore-00-04-55
+#mv RootCore-00-04-55 RootCore/
 source RootCore/scripts/setup.sh
+
+
 #brew update
 #brew install gcc5
 #sudo pip install scipy
@@ -15,24 +18,31 @@ source RootCore/scripts/setup.sh
 #sudo pip install scikit-learn
 #sudo pip install cython
 
-mkdir InstallArea
+
 #remove and adapt compile definitions
 cd RingerCore/cmt
 rm precompile.RootCore
 $ROOTCOREDIR/scripts/set_field.sh Makefile.RootCore \
-      PACKAGE_OBJFLAGS " -std=c++11 -fPI"\
-      PACKAGE_LDFLAGS  ""
+      PACKAGE_OBJFLAGS " "
+$ROOTCOREDIR/scripts/set_field.sh Makefile.RootCore \
+      PACKAGE_LDFLAGS " "
+
+
 cd ../..
-cd TuningTool/cmt
+cd TuningTools/cmt
 rm precompile.RootCore
 $ROOTCOREDIR/scripts/set_field.sh Makefile.RootCore \
-      PACKAGE_OBJFLAGS " -std=c++11 -fPI"\
-      PACKAGE_LDFLAGS  ""
+      PACKAGE_OBJFLAGS " "
+$ROOTCOREDIR/scripts/set_field.sh Makefile.RootCore \
+      PACKAGE_LDFLAGS " "
+
+
 cd ../..
 
-source buildthis.sh
+rc find_packages
+rc compile
 
-
+mkdir InstallArea
 cd InstallArea/
 INSTALL_AREA=$(pwd)
 
