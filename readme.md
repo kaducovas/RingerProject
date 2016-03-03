@@ -48,7 +48,7 @@ cd <path-to-package>/root
 source setrootcore.sh
 ```
 
-For more information on how each package work, take a look on each package documentation. An overview of the package available is [documented here](Release-organization-overview).
+For more information on how each package work, take a look on each package documentation. An overview of the packages available is [documented here](#Release-organization-overview).
 
 
 ## Update to the last stable version
