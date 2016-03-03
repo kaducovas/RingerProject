@@ -63,6 +63,7 @@ git pull origin master
 and recompile the release:
 
 ```
+cd root
 source buildthis.sh --clean-env --dist-clean --no-build
 # Open new fresh shell
 source buildthis.sh
