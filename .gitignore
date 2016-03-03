@@ -4,11 +4,10 @@
 */rcSetup.sh
 */.RootCoreBin
 *.gch
-root/RingerCore/cmt/boost_*
-root/RingerCore/cmt/include/*
-root/RingerCore/cmt/lib/*
+root/RingerTrigEgammaAnalysis/cmt/include/*
 root/RootCore/*
-root/FastNetTool/cmt/new_env_file.sh
+root/Downloads/*
+root/InstallArea/*
 *.save
 *.bak
 .gitmodules
