@@ -129,7 +129,6 @@ And, finally, compile RootCore packages on this release (cf. RootCoreMacros `bui
 ```
 cd root
 source buildthis.sh
-source buildthis.sh
 ```
 
 # Usage
