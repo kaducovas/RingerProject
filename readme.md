@@ -76,7 +76,7 @@ brew install wget
 brew install python
 # Add to your path and manpath the core utils (change profile to bashrc or zshrc in case you use a custom shell setup)
 echo 'PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"' >> .profile
-echo 'MANPATH=\"/usr/local/opt/coreutils/libexec/gnuman\$MANPATH"' >> .profile
+echo 'MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"' >> .profile
 source .profile
 ```
 

@@ -1,15 +1,15 @@
 [submodule "root/RingerCore"]
 	path = root/RingerCore
-	url = git@github.com:wsfreund/RingerCore.git
+	url = https://github.com/wsfreund/RingerCore.git
 [submodule "root/TuningTools"]
 	path = root/TuningTools
-	url = git@github.com:wsfreund/TuningTools.git
+	url = https://github.com/wsfreund/TuningTools.git
 [submodule "root/RingerTrigEgammaAnalysis"]
 	path = root/RingerTrigEgammaAnalysis
-	url = git@github.com:wsfreund/RingerTrigEgammaAnalysis.git
+	url = https://github.com/wsfreund/RingerTrigEgammaAnalysis.git
 [submodule "matlab"]
 	path = matlab
-	url = git@github.com:wsfreund/MatlabRingerMiscellanea.git
+	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
-	url = git@github.com:wsfreund/RootCoreMacros.git
+	url = https://github.com/wsfreund/RootCoreMacros.git
