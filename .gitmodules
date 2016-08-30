@@ -10,15 +10,15 @@
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
 	url = https://github.com/wsfreund/RootCoreMacros.git
-[submodule "matlab/misc"]
-	path = matlab/misc
-	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
 [submodule "matlab/+Options"]
 	path = matlab/+Options
-	url = https://github.com/wsfreund/Options.git
+	url = git://github.com/wsfreund/Options.git
 [submodule "matlab/+Utils"]
 	path = matlab/+Utils
-	url = https://github.com/wsfreund/Utils.git
+	url = git://github.com/wsfreund/Utils.git
 [submodule "matlab/+GraphUtils"]
 	path = matlab/+GraphUtils
-	url = https://github.com/wsfreund/GraphUtils.git
+	url = git://github.com/wsfreund/GraphUtils.git
+[submodule "matlab/misc"]
+	path = matlab/misc
+	url = git://github.com/wsfreund/MatlabRingerMiscellanea.git
