@@ -10,8 +10,8 @@
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
 	url = https://github.com/wsfreund/RootCoreMacros.git
-[submodule "matlab"]
-	path = matlab
+[submodule "matlab/misc"]
+	path = matlab/misc
 	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
 [submodule "matlab/+Options"]
 	path = matlab/+Options
