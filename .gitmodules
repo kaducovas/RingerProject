@@ -22,3 +22,6 @@
 [submodule "matlab/misc"]
 	path = matlab/misc
 	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
+[submodule "root/TrigEgammaPlotTools"]
+	path = root/TrigEgammaPlotTools
+	url = https://github.com/joaoVictorPinto/TrigEgammaPlotTools
