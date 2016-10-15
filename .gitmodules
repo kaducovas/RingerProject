@@ -5,7 +5,7 @@
 	path = root/TuningTools
 	url = https://github.com/wsfreund/TuningTools.git
 [submodule "root/RingerTrigEgammaAnalysis"]
-	path = root/RingerTrigEgammaAnalysis
+	path = root/TrigEgammaRingerAnalysis
 	url = https://github.com/wsfreund/RingerTrigEgammaAnalysis.git
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
