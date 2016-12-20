@@ -4,9 +4,6 @@
 [submodule "root/TuningTools"]
 	path = root/TuningTools
 	url = https://github.com/wsfreund/TuningTools.git
-[submodule "root/RingerTrigEgammaAnalysis"]
-	path = root/RingerTrigEgammaAnalysis
-	url = https://github.com/wsfreund/RingerTrigEgammaAnalysis.git
 [submodule "root/RootCoreMacros"]
 	path = root/RootCoreMacros
 	url = https://github.com/wsfreund/RootCoreMacros.git
@@ -22,6 +19,3 @@
 [submodule "matlab/misc"]
 	path = matlab/misc
 	url = https://github.com/wsfreund/MatlabRingerMiscellanea.git
-[submodule "root/TrigEgammaPlotTools"]
-	path = root/TrigEgammaPlotTools
-	url = https://github.com/joaoVictorPinto/TrigEgammaPlotTools
