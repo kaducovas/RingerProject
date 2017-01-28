@@ -21,5 +21,5 @@ source "$script_place/../root/RootCoreMacros/common_shell_fcns.sh" || { echo "Co
 add_to_env MATLABPATH "$script_place"
 add_to_env MATLABPATH "$script_place/misc/classes"
 add_to_env MATLABPATH "$script_place/misc/libs"
-add_to_env MATLABPATH "$script_place/misc/scripts"
+add_to_env MATLABPATH "$script_place/misc/scripts/util"
 add_to_env MATLABPATH "$script_place/misc/epsutil"
